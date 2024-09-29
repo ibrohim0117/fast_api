@@ -5,6 +5,7 @@ auth_router = APIRouter(
 )
 
 
+
 @auth_router.get("/")
 async def signup():
     return {"message": "Bu auth router signup sahifasi"}
